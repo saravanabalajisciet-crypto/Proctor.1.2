@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="style.css">
+<div class="container">
+  <h2>Create Exam</h2>
+  <input id="title" placeholder="Exam Title">
+  <input id="duration" placeholder="Duration (minutes)">
+  <input id="formLink" placeholder="Google Form Link">
+  <button onclick="createExam()">Create Exam</button>
+  <p id="link"></p>
+
+  <h2>Resume Requests</h2>
+  <div id="requests"></div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="teacher.js"></script>

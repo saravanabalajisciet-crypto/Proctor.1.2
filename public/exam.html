@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="style.css">
+
+<div id="overlay">Exam Paused<br>Waiting for Teacher Approval</div>
+
+<div class="container">
+  <h2 id="status">Exam Running</h2>
+  <p id="timer"></p>
+  <iframe id="formFrame"></iframe>
+  <button class="danger" onclick="finishExam()">Finish Exam</button>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="exam.js"></script>
